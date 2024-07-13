@@ -63,6 +63,7 @@ For a 3-DOF robot, we aim to find 𝜃1, 𝜃2, and 𝜃3.
 ### Steps for Inverse Kinematics:-
 ####
 - Calculate Position of the End-Effector:
+#### 
 Use the desired position (𝑥,𝑦,𝑧)
 ####
 - Solve for 𝜃1:
