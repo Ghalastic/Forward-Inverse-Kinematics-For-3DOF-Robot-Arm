@@ -3,7 +3,7 @@
 #### 
 Forward kinematics involves calculating the position and orientation of the robot's end-effector given the joint parameters (angles for revolute joints, positions for prismatic joints).
 ####
-## Example: 3-DoF Robot Arm
+## Example: 3-DOF Robot Arm
 ####
 Assume we have a 3-DOF robot arm with the following configuration:
 ####
