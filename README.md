@@ -5,7 +5,7 @@ Forward kinematics involves calculating the position and orientation of the robo
 ####
 ## Example: 3-DoF Robot Arm
 ####
-Assume we have a 3-DoF robot arm with the following configuration:
+Assume we have a 3-DOF robot arm with the following configuration:
 ####
 - Joint 1: Revolute (rotational around the z-axis)
 - Joint 2: Revolute (rotational around the y-axis)
