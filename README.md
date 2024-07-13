@@ -1,11 +1,11 @@
 # Forward & Inverse Kinematics For a 3 DOF Robotic Arm
-## Task Description:
+## Task Description:-
 To Calculate Forward and Inverse Kinematics for a Robot with 3 Degrees of Freedom
-## Forward Kinematics
+## Forward Kinematics:-
 #### 
 Forward kinematics involves calculating the position and orientation of the robot's end-effector given the joint parameters (angles for revolute joints, positions for prismatic joints).
 ####
-## 3-DOF Robot Arm
+## Joints' configuration:-
 ####
 Assume we have a 3-DOF robot arm with the following configuration:
 ####
@@ -13,7 +13,7 @@ Assume we have a 3-DOF robot arm with the following configuration:
 - Joint 2: Revolute (rotational around the y-axis)
 - Joint 3: Revolute (rotational around the y-axis)
 ####
-### Denavit-Hartenberg (DH) Parameters
+### Denavit-Hartenberg (DH) Parameters:
 ####
 We use the DH convention to describe the robot's configuration.  
 #### 
@@ -28,7 +28,7 @@ Let's define the DH parameters for our 3-DOF robot as follows:
 ####
 ![image](https://github.com/user-attachments/assets/dcd98dbd-9669-450a-a3f0-76a946730900)
 ####
-### Transformation Matrices
+### Transformation Matrices:-
 ####
 The transformation matrix for each joint can be represented as:
 ####
@@ -54,13 +54,13 @@ The overall transformation matrix from the base to the end-effector is the produ
 ####
 Multiply the matrices to get the final transformation matrix 𝑇0_3, which gives the position and orientation of the end-effector.
 ####
-## Inverse Kinematics
+## Inverse Kinematics:-
 ####
 Inverse kinematics involves calculating the joint parameters given the desired position and orientation of the end-effector.
 ####
 For a 3-DOF robot, we aim to find 𝜃1, 𝜃2, and 𝜃3.
 ####
-### Steps for Inverse Kinematics
+### Steps for Inverse Kinematics:-
 ####
 - Calculate Position of the End-Effector: Use the desired position (𝑥,𝑦,𝑧)
 ####
@@ -85,7 +85,7 @@ For example, consider the 2D projection of the arm in the 𝑥𝑧-plane:
 ####
 ![2002](https://github.com/user-attachments/assets/b7caf745-35fb-48b0-af99-728a5bd34066)
 ####
-### Example Calculation
+### Example Calculation:
 ####
 Suppose we have the following desired end-effector position (𝑥,𝑦,𝑧) and robot parameters:
 ####
@@ -118,7 +118,7 @@ Suppose we have the following desired end-effector position (𝑥,𝑦,𝑧) and
 ####
 ![‏‏لقطة الشاشة (1999)](https://github.com/user-attachments/assets/027ab0c7-550d-41c1-90f3-589fd9243b06)
 ####
-### This is a high-level overview. The exact calculations might vary depending on the robot's configuration and link parameters. In practice, numerical methods or optimization techniques might be used for more complex robots or to handle singularities and multiple solutions.
-####
-## Conclusion
+### This is a high-level overview. The exact calculations might vary depending on the robot's configuration and link parameters.
+#### 
+## Conclusion:-
 Forward kinematics provides the end-effector position given the joint parameters, while inverse kinematics provides the joint parameters given the end-effector position. Both processes are essential for controlling robotic arms and require a solid understanding of the robot's geometry and kinematics.
