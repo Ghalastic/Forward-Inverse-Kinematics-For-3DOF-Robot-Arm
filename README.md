@@ -1,5 +1,5 @@
 # Forward & Inverse Kinematics For a 3 DOF Robotic Arm
-## Task Descrription:
+## Task Description:
 To Calculate Forward and Inverse Kinematics for a Robot with 3 Degrees of Freedom
 ## Forward Kinematics
 #### 
