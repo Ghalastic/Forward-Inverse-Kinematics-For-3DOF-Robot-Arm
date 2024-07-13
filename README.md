@@ -18,3 +18,5 @@ We use the DH convention to describe the robot's configuration.
 - 𝑎𝑖: Link length  
 - 𝛼𝑖: Link twist  
 #### 
+Let's define the DH parameters for our 3-DoF robot as follows:
+![image](https://github.com/user-attachments/assets/dcd98dbd-9669-450a-a3f0-76a946730900)
