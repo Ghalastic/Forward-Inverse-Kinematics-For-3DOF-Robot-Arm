@@ -1,9 +1,11 @@
-# Forward-Inverse-Kinematics-For-3DOF-Robot-Arm
-# Forward Kinematics
+# Forward & Inverse Kinematics For a 3 DOF Robotic Arm
+## Task Descrription:
+Calculate Forward and Inverse Kinematics for a Robot with 3 Degrees of Freedom
+## Forward Kinematics
 #### 
 Forward kinematics involves calculating the position and orientation of the robot's end-effector given the joint parameters (angles for revolute joints, positions for prismatic joints).
 ####
-## Example: 3-DOF Robot Arm
+## 3-DOF Robot Arm
 ####
 Assume we have a 3-DOF robot arm with the following configuration:
 ####
@@ -11,7 +13,7 @@ Assume we have a 3-DOF robot arm with the following configuration:
 - Joint 2: Revolute (rotational around the y-axis)
 - Joint 3: Revolute (rotational around the y-axis)
 ####
-## Denavit-Hartenberg (DH) Parameters
+### Denavit-Hartenberg (DH) Parameters
 ####
 We use the DH convention to describe the robot's configuration.  
 #### 
