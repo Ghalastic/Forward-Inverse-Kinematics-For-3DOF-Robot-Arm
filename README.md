@@ -75,11 +75,11 @@ For example, consider the 2D projection of the arm in the 𝑥𝑧-plane:
 ####
 ![‏‏لقطة الشاشة (2000)](https://github.com/user-attachments/assets/9bde5631-33f3-4d14-8e05-033732f2ce5e)
 ####
-Solve for 𝜃3:
+1- Solve for 𝜃3:
 ####
 ![2001](https://github.com/user-attachments/assets/a1391cff-6655-4e79-b86e-7c8745964878)
 ####
-Solve for 𝜃2 using the law of cosines and sines:
+2- Solve for 𝜃2 using the law of cosines and sines:
 ####
 ![2002](https://github.com/user-attachments/assets/b7caf745-35fb-48b0-af99-728a5bd34066)
 ####
