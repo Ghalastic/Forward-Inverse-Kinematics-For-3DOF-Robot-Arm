@@ -1,13 +1,13 @@
-# Forward & Inverse Kinematics For a 3 DOF Robotic Arm
+# Forward & Inverse Kinematics For a 3 Degree of Freedom (3-DoF) Robotic Arm
 ## Task Description:-
-To Calculate Forward and Inverse Kinematics for a Robot with 3 Degrees of Freedom
+Calculate Forward and Inverse Kinematics for a Robot with 3 Degrees of Freedom (3-DoF).
 ## Forward Kinematics:-
 #### 
 Forward kinematics involves calculating the position and orientation of the robot's end-effector given the joint parameters (angles for revolute joints, positions for prismatic joints).
 ####
-## Joints' configuration:-
+## Joints' Configuration:-
 ####
-Assume we have a 3-DOF robot arm with the following configuration:
+For a 3-D0F robotic arm we have the following configuration:
 ####
 - Joint 1: Revolute (rotational around the z-axis)
 - Joint 2: Revolute (rotational around the y-axis)
