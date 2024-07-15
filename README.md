@@ -5,7 +5,9 @@ Calculate Forward and Inverse Kinematics for a Robot with 3 Degrees of Freedom (
 #### 
 Forward kinematics involves calculating the position and orientation of the robot's end-effector given the joint parameters (angles for revolute joints, positions for prismatic joints).
 ####
-## Joints' Configuration:-
+## Steps for Calculating the Forward Kinematics:-
+#### 
+### Joints' Configuration:
 ####
 For a 3-DoF robotic arm we have the following configuration:
 ####
@@ -28,7 +30,7 @@ The DH parameters for the 3-DoF robotic arm are as follows:
 ####
 ![image](https://github.com/user-attachments/assets/dcd98dbd-9669-450a-a3f0-76a946730900)
 ####
-### Transformation Matrices:-
+### Transformation Matrices:
 ####
 The transformation matrix for each joint can be represented as:
 ####
@@ -60,7 +62,7 @@ Inverse kinematics involves calculating the joint parameters given the desired p
 ####
 For a 3-DoF robot, the aim is to find 𝜃1, 𝜃2, and 𝜃3.
 ####
-### Steps for Calculating the Inverse Kinematics:-
+## Steps for Calculating the Inverse Kinematics:-
 ####
 - Calculate the Position of the End-Effector:
 #### 
