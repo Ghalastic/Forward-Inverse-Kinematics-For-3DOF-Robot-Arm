@@ -7,7 +7,7 @@ Forward kinematics involves calculating the position and orientation of the robo
 ####
 ## Joints' Configuration:-
 ####
-For a 3-D0F robotic arm we have the following configuration:
+For a 3-DoF robotic arm we have the following configuration:
 ####
 - Joint 1: Revolute (rotational around the z-axis)
 - Joint 2: Revolute (rotational around the y-axis)
@@ -15,7 +15,7 @@ For a 3-D0F robotic arm we have the following configuration:
 ####
 ### Denavit-Hartenberg (DH) Parameters:
 ####
-We use the DH convention to describe the robot's configuration.  
+The DH convention is used to describe the robot's arm configuration.  
 #### 
 #### The DH parameters are:
 ####
@@ -24,7 +24,7 @@ We use the DH convention to describe the robot's configuration.
 - 𝑎𝑖: Link length  
 - 𝛼𝑖: Link twist  
 #### 
-Let's define the DH parameters for our 3-DOF robot as follows:
+The DH parameters for the 3-DoF robotic arm are as follows:
 ####
 ![image](https://github.com/user-attachments/assets/dcd98dbd-9669-450a-a3f0-76a946730900)
 ####
@@ -34,7 +34,7 @@ The transformation matrix for each joint can be represented as:
 ####
 ![image](https://github.com/user-attachments/assets/b8de9155-957d-47a5-8d6d-85e854c03a8a)
 ####
-For our 3-DOF robot, the transformation matrices are:
+For the 3-DoF robotic arm, the transformation matrices are:
 ####
 - T1:
 ####
@@ -58,11 +58,11 @@ Multiply the matrices to get the final transformation matrix 𝑇0_3, which give
 ####
 Inverse kinematics involves calculating the joint parameters given the desired position and orientation of the end-effector.
 ####
-For a 3-DOF robot, we aim to find 𝜃1, 𝜃2, and 𝜃3.
+For a 3-DoF robot, the aim is to find 𝜃1, 𝜃2, and 𝜃3.
 ####
-### Steps for Inverse Kinematics:-
+### Steps for Calculating the Inverse Kinematics:-
 ####
-- Calculate Position of the End-Effector:
+- Calculate the Position of the End-Effector:
 #### 
 Use the desired position (𝑥,𝑦,𝑧)
 ####
@@ -74,8 +74,8 @@ Use the projection of the end-effector position on the 𝑥𝑦-plane:
 ####
 - Solve for 𝜃2 and 𝜃3:
 ####
-Use the geometric approach or algebraic equations derived from the transformation matrices.
-For example, consider the 2D projection of the arm in the 𝑥𝑧-plane:
+Use the geometric approach or the algebraic equations derived from the transformation matrices.
+For example, consider the 2D projection of the robotic arm in the 𝑥𝑧-plane:
 ####
 ![‏‏لقطة الشاشة (2000)](https://github.com/user-attachments/assets/9bde5631-33f3-4d14-8e05-033732f2ce5e)
 ####
@@ -87,7 +87,7 @@ For example, consider the 2D projection of the arm in the 𝑥𝑧-plane:
 ####
 ![2002](https://github.com/user-attachments/assets/b7caf745-35fb-48b0-af99-728a5bd34066)
 ####
-### Example Calculation:
+### Example Calculation:-
 ####
 Suppose we have the following desired end-effector position (𝑥,𝑦,𝑧) and robot parameters:
 ####
@@ -124,3 +124,12 @@ Suppose we have the following desired end-effector position (𝑥,𝑦,𝑧) and
 #### 
 ## Conclusion:-
 Forward kinematics provides the end-effector position given the joint parameters, while inverse kinematics provides the joint parameters given the end-effector position. Both processes are essential for controlling robotic arms and require a solid understanding of the robot's geometry and kinematics.
+####
+## References:-
+#### 
+- [Forward and Inverse Kinematics Part 1](https://youtu.be/VjsuBT4Npvk?si=5OUyxURvO1BUZ_Kk)
+#### 
+- [Robotics | Part 5 | Direct and Inverse Kinematics of 2 dof and 3 dof](https://youtu.be/Ad5DLd8vrbQ?si=Ww1Yr7VmJpbcEljX)
+#### 
+- [Trigonometry: Forward Kinematics Example](https://youtu.be/NRgNDlVtmz0?si=hdWueXQvXP433Hqx)
+####
