@@ -122,7 +122,7 @@ Suppose we have the following desired end-effector position (𝑥,𝑦,𝑧) and
 ####
 ![‏‏لقطة الشاشة (1999)](https://github.com/user-attachments/assets/027ab0c7-550d-41c1-90f3-589fd9243b06)
 ####
-### This is a high-level overview. The exact calculations might vary depending on the robot's configuration and link parameters.
+#### Note: this is a high-level overview. The exact calculations might vary depending on the robot's configuration and link parameters.
 #### 
 ## Conclusion:-
 Forward kinematics provides the end-effector position given the joint parameters, while inverse kinematics provides the joint parameters given the end-effector position. Both processes are essential for controlling robotic arms and require a solid understanding of the robot's geometry and kinematics.
